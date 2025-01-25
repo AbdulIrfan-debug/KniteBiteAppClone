@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.Aboutcover{
+    background: url(./images/AbutCover2.jpg)  no-repeat center/cover;
+    height: 120vh;
+    /* display: flex; */
+    /* align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 60px;
+    padding-left: 20px;  */
+    /* margin: auto; */
+
+}
+.head{
+    color: rgba(202, 65, 65, 0.775);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-right: 100px;
+    height: 600px;
+    justify-content: left;
+    margin: 20px;
+    line-height: 40px;
+}
+.navbar a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    /* background-color: beige; */
+    width: 55px;
+    font-size: 16px;
+    /* display: flex; */
+    font-family:monospace;
+    position:sticky;
+    /* align-items: center; */
+    /* justify-content:space-between; */
+    /* position: fixed; */
+    /* margin: auto; */
+}  
+.brandlogo{
+    /* display: flex; */
+    background:url(./images/brandlogo.png) no-repeat center/cover;
+    height: 35px;
+    width: 75px;
+    /* position: sticky; */
+    /* display: flex; */
+    /* position: sticky; */
+    /* position: relative; */
+
+    /* justify-content: space-between;     */
+    /* align-items:center ; */
+
+}
+.nav {
+    background-color: rgba(247, 238, 247, 0.2);
+    display: flex;  
+    height: 80px;
+    /* justify-content: right; */
+    /* color: rgb(136, 130, 122); */
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    justify-content: space-between; 
+    /* position: absolute; */
+    letter-spacing: 2px;
+    /* position: -webkit-sticky; */
+    /* position: fixed; */
+    
+}
+
+.Aboutcontainer{
+    background: rgba(245, 241, 241, 0.994) ;
+    height: 150vh;
+    /* margin: 100px 0;
+    row-gap: 70px; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* justify-content: center;
+    align-content: center; */
+    /* /* padding: 0 100px; */
+    /* column-gap: 40px;  */
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+    /* background-color: antiquewhite;
+    height:300px ;  */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    line-height: 35px;
+    /* row-gap: 70px; */
+    /* display: grid; */
+    /* flex-direction: column; */
+    
+}
+/* .grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 21px;
+    color: #424242;
+} */
+
+.grid-image{
+    width: 100vh;
+    object-fit: cover;
+    /* transform: scale(0.7); */
+    
+}
+
+.grid-item:nth-child(1) img {
+
+    transform: scale(0.7);
+}
+
+.grid-image1{
+    /* width: 100vh; */
+    padding:40px ;
+    width: 100vh;
+    object-fit: cover;
+    /* direction:rtl; */
+    /* margin: auto; */
+}
+.grid-item1:nth-child(1) img {
+
+    transform: scale(0.7);
+}
+
+.list{
+    background:rgba(245, 241, 241, 0.994);
+    
+    height:50vh;
+    padding-left:88px ;
+    line-height: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    /* font-weight: 100; */
+    /* background-color: aqua; */
+    /* width: 1250px; */
+    /* width: 1270px; */
+    align-items: center;
+    /* margin: auto; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding-right: 20px;
+    /* margin-right: 10px; */
+    
+}
+
+ .a{
+    display: inline-block;
+    /* background-color: azure; */
+    /* height: 200px; */
+    /* justify-content: center; */
+    text-align: center;
+    /* padding: 100px; */
+    margin: auto;
+    font-size: 30px;
+    font-weight:bolder;
+    
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* line-height: 30px; */
+
+} 
+ .footer-nav{
+    background-color: rgb(191, 65, 191);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    box-shadow:3px 4px 5px 6px rgba(204, 81, 204, 0.9);
+
+ }  
+    
