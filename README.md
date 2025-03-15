@@ -1,3 +1,4 @@
+                                                                       
 **Knite Bite** Is a cloud Kitchen Application.
    -Here enduser/Customer can Order the foods.
    -In this repository only the front-end side of the application code is present 
